@@ -70,7 +70,7 @@ nav {
 }
 
 .mandymovie-card    {
-    width: 360px;
+    width: 100%;
 }
 
 .mandymovie-card img {
@@ -80,17 +80,22 @@ nav {
 
 .mandymovie-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
+
 }
 
 .mandymovie-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
+
 }
 
 .mandymovie-btn, .mandymovie-btn:hover {

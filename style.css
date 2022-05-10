@@ -4,6 +4,7 @@
 /* Variavéis para estilizações */
 :root {
     --bg-gray: #E8E8E8;
+    --text-gray: #4A4A4A;
     --color-primary: #4D41C0;
     --white: #FFF;
 
@@ -61,5 +62,55 @@ nav {
 .mandymovie-contatct-container img {
     margin-right: 10px;
 }
+
+/* MAIN */
+
+#mandymovie-list {
+    padding: 40px 0;
+}
+
+.mandymovie-card    {
+    width: 360px;
+}
+
+.mandymovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.mandymovie-description {
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.mandymovie-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.mandymovie-btn, .mandymovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4px;
+}
+
+
+
+
+
 
 

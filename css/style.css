@@ -7,6 +7,7 @@
     --text-gray: #4A4A4A;
     --color-primary: #4D41C0;
     --white: #FFF;
+    --text-light-gray: #AAAAAA;
 
 }
 
@@ -111,6 +112,9 @@ nav {
     justify-content: center;
 
     border-radius: 4px;
+    border: 0;
+
+
 }
 
 
@@ -120,6 +124,46 @@ nav {
     padding: 48px 0;
     max-width: 400px;
 }
+
+.mandymovie-form-description {
+    background-color: var(--white);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 0 0 8px 8px;
+}
+
+.mandymovie-form {
+    width: 100%;
+}
+
+.mandymovie-form-description h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mandymovie-form-group {
+    margin-bottom: 20px;
+}
+   
+
+.mandymovie-form-group label {
+    font-size: 12px;
+    color: var(--text-light-gray);
+}
+
+.mandymovie-bt-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
 

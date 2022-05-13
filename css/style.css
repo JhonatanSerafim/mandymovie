@@ -68,7 +68,7 @@ nav {
 /* MAIN */
 
 #mandymovie-list {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .mandymovie-card    {
@@ -88,14 +88,14 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    height: 220px;
+    height: 190px;
+    
 
 }
 
 .mandymovie-description h3 {
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
     text-align: center;
 
 }
@@ -112,7 +112,7 @@ nav {
 .mandymovie-card-description-bottom h4 {
     font-size: 16px;
     font-weight: 700;
-    color: var(--star-yellow)
+    color: var(--star-yellow);
 }
 
 .mandymovie-card-description-bottom img{

@@ -68,7 +68,7 @@ nav {
 /* MAIN */
 
 #mandymovie-list {
-    padding: 40px 10px;
+    padding: 0 10px;
 }
 
 .mandymovie-card    {
@@ -191,6 +191,54 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.mandymovie-pagination-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.mandymovie-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mandymovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-primary);
+   
+}
+
+.mandymovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mandymovie-pagination-box button img {
+    filter: brightness(0) saturate(100%) invert(24%) sepia(45%) saturate(3575%) hue-rotate(234deg) brightness(87%) contrast(90%);
+}
+
+.mandymovie-pagination-box button:disabled {
+    border: 1px solid var(--text-light-gray);
+}
+
+.mandymovie-pagination-box button:disabled img {
+    filter: unset;
+}
+
+.mandymovie-flip-horizontal {
+    transform: rotate(180deg);
 }
 
 

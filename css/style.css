@@ -8,6 +8,7 @@
     --color-primary: #4D41C0;
     --white: #FFF;
     --text-light-gray: #AAAAAA;
+    --star-yellow: #FFBB3A;
 
 }
 
@@ -87,7 +88,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 
 }
 
@@ -98,6 +99,34 @@ nav {
     text-align: center;
 
 }
+
+
+/* AVALIAÇÕES */
+
+.mandymovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mandymovie-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow)
+}
+
+.mandymovie-card-description-bottom img{
+    width: 22px;
+}
+
+.mandymovie-card-description-bottom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+/* AVALIAÇÕES */
 
 .mandymovie-btn, .mandymovie-btn:hover {
     width: 180px;
@@ -163,6 +192,7 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
 
 
 
